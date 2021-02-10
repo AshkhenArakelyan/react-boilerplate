@@ -1,0 +1,11 @@
+@import '~styles/root';
+
+.app-container {
+    &__text {
+        color: $primary-color;
+        font-size: $h1-font-size;
+        @include media(tablet) {
+            color: $secondary-color;
+        }
+    }
+}
